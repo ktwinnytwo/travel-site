@@ -1,0 +1,21 @@
+/*-----Imports-----*/
+
+@import '../base/_variables';
+
+/*--- CSS ---*/
+
+.btn {
+  background-color: $mainBlue;
+  color: #fff;
+  text-decoration: none;
+  padding: .75em 1.2em;
+  display: inline-block;
+
+  &--orange {
+    background-color: $mainOrange;
+  }
+
+  &--large {
+    padding: 1.2em 1.8em;
+  }
+}
